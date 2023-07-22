@@ -7,10 +7,8 @@ import conversation from "./route/conversation.js";
 
 
 config();
-
 const app = express();
 const PORT = process.env.PORT;
-
 /*message.log();*/
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
